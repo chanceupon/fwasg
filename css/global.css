@@ -1,3 +1,13 @@
+*:focus {
+  outline-color: transparent;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*::selection {
+  background-color: transparent;
+}
+
 body {
   color: var(--black);
   font-size: var(--base--size);
@@ -26,7 +36,7 @@ body {
   border: none;
   border-radius: 2px;
   cursor: pointer;
-  padding: 7px 15px;
+  padding: 6px 15px 8px 15px;
   font-size: var(--base-font);
   background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
   box-shadow: 2px 2px 4px #14695E4D;
@@ -36,7 +46,7 @@ body {
 }
 .c-button--big {
   font-size: var(--button-medium-size);
-  padding: 9px 25px;
+  padding: 9px 25px 12px 25px;
 }
 
 @media (max-width: 768px) {

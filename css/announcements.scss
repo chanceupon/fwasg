@@ -80,6 +80,7 @@
     justify-content: center;
 
     .c-button {
+      margin-top: -23px;
       padding: 12px 15px;
     }
   }
@@ -97,6 +98,7 @@
     &__button {
       width: calc(100% - 76px);
       .c-button {
+        margin-top: 0;
         width: 100%;
       }
     }
