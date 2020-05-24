@@ -151,13 +151,89 @@ both in their career paths and in their family line
 <div class="c-container c-banner__mobile-button">
 <button class="c-button c-button--bold c-button--big">Join us</button>
 </div>
+
+</div>
+<div class="c-container">
+<div class="c-event">
+<div class="c-event__head">
+<div class="c-event__title">Upcoming events</div>
+<a class="c-event__link" href="#">
+<span>Events calendar</span>
+<img src="./images/icon/arrow-right.svg">
+</a>
+</div>
+<div class="c-event__card">
+<div class="c-event-card">
+<div class="c-event-card__layer"></div>
+<div class="c-event-card__item">
+<div class="c-event-card__title">NTUC U PME Webinar Series:</div>
+<div class="c-event-card__title">Financial Planning during Uncertain Times</div>
+<div class="c-event-card__content-wrapper">
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/calendar-day.svg">
+<div class="c-event-card__content-text">Thursday 30th April 5pm</div>
+</div>
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/location.svg">
+<div class="c-event-card__content-text">Online webinar</div>
+</div>
+</div>
+<div class="c-event-card__footer">
+<div class="c-event-card__button">Members Only Event</div>
+<div class="c-event-card__button">Members Fee: $0.00</div>
+</div>
+</div>
+</div>
+<div class="c-event-card">
+<div class="c-event-card__layer"></div>
+<div class="c-event-card__item">
+<div class="c-event-card__title">FWA Corporate Members:</div>
+<div class="c-event-card__title">Zoom Webinar</div>
+<div class="c-event-card__content-wrapper">
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/calendar-day.svg">
+<div class="c-event-card__content-text">Wednesday 6th May 12pm</div>
+</div>
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/location.svg">
+<div class="c-event-card__content-text">Wednesday 6th May 12pm</div>
+</div>
+</div>
+<div class="c-event-card__footer">
+<div class="c-event-card__button">Members Only Event</div>
+<div class="c-event-card__button">Members Fee: $0.00</div>
+</div>
+</div>
+</div>
+<div class="c-event-card">
+<div class="c-event-card__layer"></div>
+<div class="c-event-card__item">
+<div class="c-event-card__title">FWA Exchange: Facing COVID-19</div>
+<div class="c-event-card__title"></div>
+<div class="c-event-card__content-wrapper">
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/calendar-day.svg">
+<div class="c-event-card__content-text">Friday 8th May 1245pm</div>
+</div>
+<div class="c-event-card__content">
+<img class="c-event-card__content-icon" src="./images/icon/location.svg">
+<div class="c-event-card__content-text">Zoom session</div>
+</div>
+</div>
+<div class="c-event-card__footer">
+<div class="c-event-card__button">Members Only Event</div>
+<div class="c-event-card__button">Members Fee: $0.00</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>
 <script>
   $(document).ready(function(){
     $('.c-banner-slick__wrapper').on('init', function(event, slick){
-      console.log(123123123)
       $('.c-banner-slick__content').find("[data-slide-index='0']").fadeIn('fast')
     });
   
@@ -169,7 +245,6 @@ both in their career paths and in their family line
       infinite: true,
       autoplaySpeed: 1000,
     });
-  
   
     $('.c-banner-slick__wrapper').on('beforeChange', function(event, slick, currentSlide, nextSlide){
       $('.c-banner-slick__content .c-banner-slick__text').css('display', 'none')

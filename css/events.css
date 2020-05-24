@@ -1,0 +1,117 @@
+.c-event {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.c-event__head {
+  display: flex;
+  justify-content: space-between;
+}
+.c-event__title {
+  color: var(--black);
+  font-size: var(--font-xxl);
+  font-weight: bold;
+}
+.c-event__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--green);
+}
+.c-event__link img {
+  width: 12px;
+  height: 12px;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+.c-event__card {
+  display: flex;
+  flex-flow: wrap row;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.c-event-card {
+  display: flex;
+  width: 350px;
+  justify-content: flex-start;
+  position: relative;
+}
+.c-event-card__layer {
+  width: 335px;
+  margin-left: 15px;
+  background: var(--green) 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 4px #14695E33;
+  border: 2px solid var(--dark-green);
+  position: absolute;
+  height: calc(100% - 15px);
+  z-index: 10;
+}
+.c-event-card__item {
+  z-index: 30;
+  margin-top: 11px;
+  width: 305px;
+  padding: 13px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #000000;
+}
+.c-event-card__title {
+  font-weight: bold;
+  color: var(--green);
+  margin-top: 3px;
+}
+.c-event-card__content-wrapper {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+.c-event-card__content {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.c-event-card__content-icon {
+  width: 15px;
+  height: 15px;
+}
+.c-event-card__content-text {
+  margin-left: 7px;
+  font-size: var(--small-size);
+}
+.c-event-card__footer {
+  display: flex;
+}
+.c-event-card__button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 3px 10px 5px 10px;
+  border-radius: 50px;
+  font-size: var(--small-size);
+  border: 1px solid var(--dark-blue);
+  font-weight: bold;
+  margin-left: 7px;
+}
+.c-event-card__button:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .c-event__card {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+
+  .c-event-card {
+    margin-top: 30px;
+  }
+  .c-event-card__item {
+    padding: 15px;
+  }
+}

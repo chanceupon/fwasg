@@ -2,8 +2,11 @@
   --black: #463E37;
   --green: #00A191;
   --blur-green: #7BBB43;
+  --dark-green: #14695E;
+  --dark-blue: #08415C;
   --blur-gray: #F3F3F3;
   --white: #fff;
+  --font-xxl: 36px;
   --big-size: 30px;
   --medium-size: 22px;
   --base-size: 16px;
@@ -13,13 +16,11 @@
 
 @media (max-width: 768px) {
   :root {
-    --black: #463E37;
-    --green: #00A191;
-    --white: #fff;
     --base-size: 14px;
     --small-size: 13px;
     --button-medium-size: 18px;
     --medium-size: 18px;
     --big-size: 20px;
+    --font-xxl: 26px;
   }
 }
