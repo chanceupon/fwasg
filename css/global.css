@@ -16,9 +16,12 @@ body {
 }
 
 .c-container {
-  width: 1140px;
+  width: 1280px;
   margin: auto;
   display: flex;
+}
+.c-container--small {
+  width: 1024px;
 }
 .c-container--column {
   flex-direction: column;

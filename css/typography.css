@@ -1,0 +1,46 @@
+.c-typography {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.c-typography__title {
+  margin-top: 40px;
+  font-size: 45px;
+  color: var(--green);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.c-typography__paragraph {
+  margin-top: 13px;
+}
+.c-typography__paragraph--margin-top {
+  margin-top: 20px;
+}
+.c-typography__list-paragraph-wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap row;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+.c-typography__list-paragraph {
+  width: 230px;
+  display: flex;
+}
+.c-typography__list-icon {
+  width: 9px;
+  height: 9px;
+  margin-top: 7px;
+  margin-right: 5px;
+  background: var(--green);
+  flex-flow: wrap row;
+}
+.c-typography__list-text {
+  width: calc(100% - 14px);
+}
+.c-typography__list-text--small {
+  font-size: var(--small-size);
+}
+.c-typography__list-text--bold {
+  font-weight: bold;
+}

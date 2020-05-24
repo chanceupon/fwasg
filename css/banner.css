@@ -33,7 +33,7 @@
 }
 .c-banner__line-wrapper {
   display: flex;
-  width: calc((100% - 1140px) / 2);
+  width: calc((100% - 1280px) / 2);
   align-items: center;
 }
 .c-banner__line {
@@ -55,7 +55,7 @@
 
 .c-banner-slick {
   position: relative;
-  width: calc(100% - ((100% - 1140px) / 2) - 0.52 * 1140px);
+  width: calc(100% - ((100% - 1280px) / 2) - 0.52 * 1280px);
   border: 2px solid var(--green);
   border-right: none;
 }
@@ -75,7 +75,7 @@
   height: 520px;
 }
 .c-banner-slick__content {
-  width: calc(0.52 * 1140px);
+  width: calc(0.52 * 1280px);
   display: flex;
   margin-top: 225px;
 }

@@ -11,8 +11,8 @@
   flex-flow: wrap row;
 }
 .c-gallery__wrapper img {
-  width: 285px;
-  height: 255px;
+  width: 320px;
+  height: 275px;
   object-fit: cover;
 }
 .c-gallery__button {

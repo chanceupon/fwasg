@@ -41,12 +41,12 @@
 
 .c-event-card {
   display: flex;
-  width: 350px;
+  width: 380px;
   justify-content: flex-start;
   position: relative;
 
   &__layer {
-    width: 335px;
+    width: 365px;
     margin-left: 15px;
     background: var(--green) 0% 0% no-repeat padding-box;
     box-shadow: 3px 3px 4px #14695E33;
@@ -59,7 +59,7 @@
   &__item {
     z-index: 30;
     margin-top: 11px;
-    width: 305px;
+    width: 335px;
     padding: 13px 16px;
     display: flex;
     flex-direction: column;

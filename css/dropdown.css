@@ -52,6 +52,13 @@
   padding: 3px 0;
 }
 
+
+.dropdown ul li  a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.dropdown ul li a:hover,
 .dropdown ul li:hover,
 .dropdown ul li.selected {
   color: var(--green);

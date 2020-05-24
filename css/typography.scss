@@ -1,0 +1,55 @@
+.c-typography {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  &__title {
+    margin-top: 40px;
+    font-size: 45px;
+    color: var(--green);
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &__paragraph {
+    margin-top: 13px;
+
+    &--margin-top {
+      margin-top: 20px;
+    }
+  }
+
+  &__list-paragraph-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    margin: 15px 0;
+    justify-content: space-between;
+  }
+
+  &__list-paragraph {
+    width: 230px;
+    display: flex;
+  }
+
+  &__list-icon {
+    width: 9px;
+    height: 9px;
+    margin-top: 7px;
+    margin-right: 5px;
+    background: var(--green);
+    flex-flow: wrap row;
+  }
+
+  &__list-text {
+    width: calc(100% - 14px);
+
+    &--small {
+      font-size: var(--small-size);
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
