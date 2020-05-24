@@ -15,4 +15,25 @@ $(function() {
     $(this).find('ul').toggleClass('hidden');
     $(this).find('ul').slideToggle('fast');
   });
+
+  $('.c-header__toggle-bar').on('click', function() {
+    $(this).toggleClass('toggle');
+    $('.c-header__menu').toggleClass('open');
+
+    if ($('.c-header__menu').hasClass('open')) {
+      $('.c-header__menu').slideDown({
+        start: function () {
+          $(this).css({
+            display: "flex"
+          })
+        }
+      });
+    } else {
+      $('.c-header__menu').slideUp({
+        complete: function () {
+          $(this).removeAttr('style')
+        }
+      });
+    }
+  });
 });

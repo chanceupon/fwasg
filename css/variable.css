@@ -3,4 +3,15 @@
   --green: #00A191;
   --white: #fff;
   --base-size: 16px;
+  --small-size: 14px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --black: #463E37;
+    --green: #00A191;
+    --white: #fff;
+    --base-size: 14px;
+    --small-size: 13px;
+  }
 }
