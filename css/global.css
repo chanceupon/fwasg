@@ -1,14 +1,23 @@
-@import "./variable.css";
 body {
-  margin: 0;
   color: var(--black);
   font-size: var(--base--size);
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
 
 .c-container {
   width: 1140px;
   margin: auto;
+  display: flex;
+}
+.c-container--column {
+  flex-direction: column;
+}
+.c-container--align-center {
+  align-items: center;
+}
+.c-container--justify-center {
+  justify-content: center;
 }
 
 .c-button {
@@ -18,14 +27,14 @@ body {
   border-radius: 2px;
   cursor: pointer;
   padding: 7px 15px;
-  font-size: var(--base-size);
+  font-size: var(--base-font);
   background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
   box-shadow: 2px 2px 4px #14695E4D;
 }
-
-@media (max-width: 768px) {
-  .c-container {
-    width: calc(100% - 30px);
-    padding: 0 15px;
-  }
+.c-button--bold {
+  font-weight: bold;
+}
+.c-button--big {
+  font-size: var(--button-medium-size);
+  padding: 9px 25px;
 }

@@ -1,9 +1,14 @@
 :root {
   --black: #463E37;
   --green: #00A191;
+  --blur-green: #7BBB43;
+  --blur-gray: #F3F3F3;
   --white: #fff;
+  --big-size: 30px;
+  --medium-size: 22px;
   --base-size: 16px;
   --small-size: 14px;
+  --button-medium-size: 20px;
 }
 
 @media (max-width: 768px) {

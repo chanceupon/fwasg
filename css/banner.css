@@ -1,0 +1,117 @@
+.c-banner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 70px;
+  width: 100%;
+  position: relative;
+  height: 530px;
+}
+.c-banner__content {
+  z-index: 200;
+  width: 52%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+.c-banner__content .c-button {
+  width: 150px;
+  padding: 13px 35px;
+}
+.c-banner__title {
+  color: var(--blur-green);
+  font-size: var(--medium-size);
+  font-weight: bold;
+}
+.c-banner__hint {
+  width: 340px;
+  color: var(--black);
+  font-size: var(--medium-size);
+  font-weight: bold;
+}
+.c-banner__line-wrapper {
+  display: flex;
+  width: calc((100% - 1140px) / 2);
+  align-items: center;
+}
+.c-banner__line {
+  height: 3px;
+  background: #00A191;
+  width: calc(100% - 10px);
+  margin-top: -35px;
+}
+.c-banner__slide {
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+
+.c-banner-slick {
+  position: relative;
+  width: calc(100% - ((100% - 1140px) / 2) - 0.52 * 1140px);
+  border: 2px solid var(--green);
+  border-right: none;
+}
+.c-banner-slick__wrapper {
+  position: relative;
+  margin-top: -35px !important;
+}
+.c-banner-slick__slide {
+  display: flex !important;
+  width: 100%;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.c-banner-slick__slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 520px;
+}
+.c-banner-slick__content {
+  width: calc(0.52 * 1140px);
+  display: flex;
+  align-items: center;
+}
+.c-banner-slick__text {
+  width: 530px;
+  display: none;
+  font-size: var(--big-size);
+}
+.c-banner-slick .slick-list {
+  overflow: hidden;
+}
+.c-banner-slick .slick-dots {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.c-banner-slick .slick-dots li {
+  background-color: var(--blur-gray);
+  margin: 5px;
+}
+.c-banner-slick .slick-dots li.slick-active {
+  background-color: var(--green);
+}
+.c-banner-slick .slick-dots li:first-child {
+  margin-left: 0;
+}
+.c-banner-slick .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 11px;
+  height: 11px;
+  padding: 3px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}

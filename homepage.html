@@ -7,7 +7,8 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/slick.min.js"></script>
 <script src="./js/header.js"></script>
 </head>
 <body>
@@ -106,5 +107,70 @@
 </div>
 </div>
 </header>
+<div class="c-banner">
+<div class="c-container c-container--align-center">
+<div class="c-banner__content">
+<div class="c-banner__text">
+<div class="c-banner__title">
+The Financial Women’s Association
+</div>
+<div class="c-banner__hint">
+Singapore drives professionalism in the financial sector
+</div>
+</div>
+<button class="c-button c-button--bold c-button--big">Join us</button>
+</div>
+</div>
+<div class="c-banner__slide">
+<div class="c-banner__line-wrapper">
+<div class="c-banner__line"></div>
+</div>
+<div class="c-banner-slick__content">
+<div class="c-banner-slick__text" data-slide-index="0">
+We provide a
+<b>networking platform</b>
+for professional support and contacts
+</div>
+<div class="c-banner-slick__text" data-slide-index="1">
+We promote the
+<b>education & advancement of women</b>
+both in their career paths and in their family line
+</div>
+</div>
+<div class="c-banner-slick">
+<div class="c-banner-slick__wrapper">
+<div class="c-banner-slick__slide">
+<img src="./images/banner/1.png">
+</div>
+<div class="c-banner-slick__slide">
+<img src="./images/banner/2.png">
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
+<script>
+  $(document).ready(function(){
+    $('.c-banner-slick__wrapper').on('init', function(event, slick){
+      console.log(123123123)
+      $('.c-banner-slick__content').find("[data-slide-index='0']").fadeIn('fast')
+    });
+  
+    $('.c-banner-slick__wrapper').slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      autoplaySpeed: 1000,
+    });
+  
+  
+    $('.c-banner-slick__wrapper').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+      $('.c-banner-slick__content .c-banner-slick__text').css('display', 'none')
+      $('.c-banner-slick__content').find("[data-slide-index='" + nextSlide + "']").fadeIn('slow')
+    });
+  });
+</script>
