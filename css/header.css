@@ -7,7 +7,7 @@
   height: 70px;
 }
 .c-header__logo {
-  width: 140px;
+  width: 145px;
   object-fit: contain;
 }
 .c-header__menu {
@@ -23,6 +23,7 @@
 }
 
 .c-header-menu {
+  z-index: 300;
   display: flex;
   justify-content: space-around;
 }

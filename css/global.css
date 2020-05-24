@@ -38,3 +38,10 @@ body {
   font-size: var(--button-medium-size);
   padding: 9px 25px;
 }
+
+@media (max-width: 768px) {
+  .c-container {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+}

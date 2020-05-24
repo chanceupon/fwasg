@@ -18,5 +18,8 @@
     --white: #fff;
     --base-size: 14px;
     --small-size: 13px;
+    --button-medium-size: 18px;
+    --medium-size: 18px;
+    --big-size: 20px;
   }
 }

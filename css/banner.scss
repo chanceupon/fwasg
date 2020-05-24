@@ -55,6 +55,10 @@
     position: absolute;
     display: flex;
   }
+
+  &__mobile-button {
+    display: none;
+  }
 }
 
 .c-banner-slick {
@@ -84,7 +88,7 @@
   &__content {
     width: calc(0.52 * 1140px);
     display: flex;
-    align-items: center;
+    margin-top: 225px;
   }
 
   &__text {
@@ -129,6 +133,86 @@
         border: 0;
         outline: none;
         background-color: transparent;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .c-banner {
+    margin-top: 25px;
+    height: auto;
+    flex-direction: column;
+
+    &__content {
+      height: auto;
+      width: 100%;
+
+      .c-button {
+        display: none;
+      }
+    }
+
+    &__hint {
+      width: 100%;
+    }
+
+    &__slide {
+      flex-direction: column-reverse;
+      position: relative;
+      margin-top: 40px;
+    }
+
+    &__line-wrapper {
+      display: none;
+    }
+
+    &__mobile-button {
+      display: block;
+      margin-top: 20px;
+
+      .c-button {
+        width: 100%;
+        padding: 12px 30px;
+      }
+    }
+  }
+
+  .c-banner-slick {
+    width: calc(100% - 15px);
+    margin-left: 13px;
+
+    &__wrapper {
+      margin-top: -20px !important;
+    }
+
+    &__slide {
+      padding-left: 11px;
+      margin-left: -1px;
+
+      img {
+        height: auto;
+      }
+    }
+
+    &__content {
+      width: calc(100% - 30px);
+      margin-top: 20px;
+      padding: 0 15px;
+    }
+
+    .slick-dots {
+      margin-top: 5px;
+      margin-bottom: 3px;
+      padding-left: 10px;
+
+      li {
+        margin: 3px;
+
+        button {
+          width: 6px;
+          height: 6px;
+        }
       }
     }
   }
