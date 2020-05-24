@@ -1,0 +1,95 @@
+.c-announcement {
+  width: 100%;
+  margin-bottom: 70px;
+  display: flex;
+  background-image: url("../images/announcement-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 630px;
+  position: relative;
+}
+.c-announcement__layer {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: #313131 0% 0% no-repeat padding-box;
+  opacity: 0.74;
+  z-index: 10;
+}
+.c-announcement__content {
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: calc(100% - 100px);
+  width: 100%;
+  padding: 50px 0;
+}
+.c-announcement__title {
+  font-weight: bold;
+  font-size: var(--font-xxl);
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.c-announcement-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 25px;
+  width: 650px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid var(--green);
+}
+.c-announcement-card__title {
+  width: 100%;
+  text-align: center;
+  color: var(--green);
+  font-weight: bold;
+  font-size: var(--medium-size);
+}
+.c-announcement-card__date {
+  width: 100%;
+  text-align: center;
+  color: var(--gray);
+  font-size: var(--small-size);
+}
+.c-announcement-card__paragraph {
+  margin-top: 13px;
+}
+.c-announcement-card__link {
+  text-decoration: none;
+  color: var(--green);
+  font-weight: bold;
+}
+.c-announcement-card__button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.c-announcement-card__button .c-button {
+  margin-top: -23px;
+  padding: 12px 15px;
+}
+
+@media (max-width: 768px) {
+  .c-announcement {
+    height: 800px;
+  }
+
+  .c-announcement-card {
+    padding: 15px 20px 0 20px;
+    width: calc(100% - 120px);
+  }
+  .c-announcement-card__button {
+    width: calc(100% - 76px);
+  }
+  .c-announcement-card__button .c-button {
+    width: 100%;
+  }
+}
