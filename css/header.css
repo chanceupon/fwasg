@@ -1,0 +1,46 @@
+@import "./variable.css";
+.c-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  height: 70px;
+}
+.c-header__logo {
+  width: 140px;
+  object-fit: contain;
+}
+.c-header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.c-header__menu .c-button {
+  margin: 0 18px;
+}
+
+.c-header-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.c-header-menu__item {
+  color: var(--black);
+  font-size: var(--base-size);
+  text-decoration: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.c-header-menu__item--active {
+  color: var(--green);
+  font-weight: bold;
+}
+.c-header-menu__social-group {
+  display: flex;
+}
+.c-header-menu__social-item {
+  margin: 0 6px;
+  width: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}

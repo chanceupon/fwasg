@@ -1,0 +1,23 @@
+@import "./variable.css";
+body {
+  color: var(--black);
+  font-size: var(--base--size);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.c-container {
+  width: 1140px;
+  margin: auto;
+}
+
+.c-button {
+  color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 7px 15px;
+  font-size: var(--base-font);
+  background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 4px #14695E4D;
+}
