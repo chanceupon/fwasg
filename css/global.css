@@ -41,6 +41,11 @@ body.no-scroll {
   background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
   box-shadow: 2px 2px 4px #14695E4D;
   font-family: "Neuzeit Grotesk", sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+.c-button:hover {
+  background-image: linear-gradient(to right, #7BBB43 0%, #00A191 100%);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .c-button--bold {
   font-weight: bold;
