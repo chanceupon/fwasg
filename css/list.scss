@@ -88,6 +88,22 @@
     height: 185px;
     object-fit: cover;
     transition: all 0.5s ease;
+
+    &--branch {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 172px;
+      width: 172px;
+      border-radius: 5px;
+      border: 3px solid var(--green);
+      background: var(--white);
+
+      img {
+        width: 80%;
+        object-fit: cover;
+      }
+    }
   }
 
   &__image-layer {
@@ -100,12 +116,22 @@
     right: 0;
     bottom: -13px;
     border-radius: 2px;
+
+    &--branch {
+      margin-top: 32px;
+      background: var(--green);
+    }
   }
 
   &__item-name {
     font-weight: bold;
     color: var(--green);
     margin-top: 20px;
+
+    &--branch {
+      width: 80%;
+      margin-top: 15px;
+    }
   }
 
   &__item-description {

@@ -20,6 +20,9 @@
 .c-typography__paragraph {
   margin-top: 13px;
 }
+.c-typography__paragraph--gray {
+  color: #666666;
+}
 .c-typography__paragraph--margin-top {
   margin-top: 20px;
 }
