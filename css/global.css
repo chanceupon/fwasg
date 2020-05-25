@@ -1,18 +1,11 @@
-*:focus {
-  outline-color: transparent;
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
-}
-
-*::selection {
-  background-color: transparent;
-}
-
 body {
   color: var(--black);
   font-size: var(--base--size);
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
+}
+body.no-scroll {
+  overflow: hidden;
 }
 
 .c-container {

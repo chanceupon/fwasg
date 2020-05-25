@@ -27,7 +27,7 @@
   width: 100%;
   display: flex;
   flex-flow: wrap row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 20px 0;
 
   &__item {
@@ -36,6 +36,11 @@
     flex-direction: column;
     width: 190px;
     margin-top: 30px;
+    margin-right: 18px;
+
+    &:nth-child(5n) {
+      margin-right: 0
+    }
 
     &--margin-top {
       margin-top: 5px;
@@ -45,30 +50,47 @@
   &__image-wrapper {
     display: flex;
     position: relative;
+    overflow: hidden;
 
-    img {
-      border-radius: 4px;
-      z-index: 20;
-      width: 178px;
-      height: 190px;
-      object-fit: cover;
+
+    &:hover {
+      .c-list__image {
+        top: 5px;
+        left: 5px;
+      }
+
+      .c-list__arrow {
+        right: 20px;
+      }
     }
   }
 
-  &__image-layer {
+  &__image {
     position: absolute;
+    border-radius: 2px;
+    z-index: 20;
+    width: 175px;
+    height: 185px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
+
+  &__image-layer {
     z-index: 10;
+    margin-top: 40px;
+    margin-left: 40px;
     width: 150px;
     height: 160px;
     background-color: #003C36;
     right: 0;
     bottom: -13px;
+    border-radius: 2px;
   }
 
   &__item-name {
     font-weight: bold;
     color: var(--green);
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   &__item-description {
@@ -83,4 +105,28 @@
     font-weight: bold;
     color: #666666;
   }
+
+  &__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: var(--green);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 30;
+    bottom: 20px;
+    right: -40px;
+    transition: all 0.3s ease;
+
+    img {
+      margin-left: 2px;
+      margin-bottom: 2px;
+      object-fit: contain;
+      width: 15px;
+      height: 15px;
+    }
+  }
+
 }

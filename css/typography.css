@@ -30,7 +30,7 @@
 .c-typography__list-icon {
   width: 9px;
   height: 9px;
-  margin-top: 7px;
+  margin-top: 5px;
   margin-right: 5px;
   background: var(--green);
   flex-flow: wrap row;
