@@ -1,10 +1,11 @@
 .c-list-filter {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
+  flex-flow: wrap row;
 }
 .c-list-filter__item {
-  margin: 0 6px;
+  margin: 5px 6px;
   padding: 6px 18px;
   border-radius: 4px;
   color: #959595;
@@ -172,6 +173,13 @@
   }
 }
 @media (max-width: 767px) {
+  .c-list-filter {
+    justify-content: space-between;
+  }
+  .c-list-filter__item {
+    margin: 5px 0;
+  }
+
   .c-list__item {
     margin-right: 45px;
   }
@@ -254,14 +262,18 @@
     height: 145px;
   }
   .c-list__image--branch {
-    height: 162px;
-    width: 162px;
+    height: 132px;
+    width: 132px;
   }
   .c-list__image-layer {
     margin-top: 35px;
     margin-left: 35px;
     width: 110px;
     height: 120px;
+  }
+  .c-list__image-layer--branch {
+    height: 115px;
+    width: 120px;
   }
 }
 @media (max-width: 320px) {
@@ -278,13 +290,20 @@
     height: 130px;
   }
   .c-list__image--branch {
-    height: 162px;
-    width: 162px;
+    height: 120px;
+    width: 120px;
   }
   .c-list__image-layer {
     margin-top: 35px;
     margin-left: 35px;
     width: 95px;
     height: 105px;
+  }
+  .c-list__image-layer--branch {
+    height: 100px;
+    width: 115px;
+  }
+  .c-list__item-name--branch {
+    width: 100%;
   }
 }

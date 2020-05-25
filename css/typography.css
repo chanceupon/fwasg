@@ -67,6 +67,9 @@
     margin: 0;
     height: auto;
   }
+  .c-typography__list-paragraph {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 375px) {
   .c-typography__title {
