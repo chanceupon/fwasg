@@ -57,3 +57,19 @@
 .c-typography__list-text--bold {
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .c-typography__title {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+  .c-typography__image {
+    margin: 0;
+    height: auto;
+  }
+}
+@media (max-width: 375px) {
+  .c-typography__title {
+    font-size: 25px;
+  }
+}

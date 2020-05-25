@@ -37,6 +37,11 @@
   font-size: var(--medium-text-size);
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .c-mission__paragraph {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 768px) {
   .c-mission {
     margin-top: 0;

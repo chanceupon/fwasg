@@ -25,7 +25,25 @@
   padding: 15px 25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .c-gallery__container {
+    width: 100%;
+    padding: 0;
+  }
+  .c-gallery__wrapper img {
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .c-gallery__wrapper img {
+    width: 50%;
+    height: 220px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 767px) {
   .c-gallery__container {
     width: 100%;
     padding: 0;
@@ -38,5 +56,12 @@
   .c-gallery__button .c-button {
     width: 100%;
     padding: 13px 25px 12px 25px;
+  }
+}
+@media (max-width: 320px) {
+  .c-gallery__wrapper img {
+    width: 50%;
+    height: 140px;
+    object-fit: cover;
   }
 }

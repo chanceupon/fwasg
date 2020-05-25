@@ -17,6 +17,18 @@
   --button-big-size: 24px;
 }
 
+@media (min-width: 769px)  and (max-width: 1024px){
+  :root {
+    --base-size: 14px;
+    --small-size: 13px;
+    --button-medium-size: 18px;
+    --button-big-size: 20px;
+    --medium-size: 18px;
+    --big-size: 20px;
+    --font-xxl: 26px;
+  }
+}
+
 @media (max-width: 768px) {
   :root {
     --base-size: 14px;
