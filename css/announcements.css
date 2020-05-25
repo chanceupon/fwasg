@@ -29,6 +29,7 @@
   padding: 50px 0;
 }
 .c-announcement__title {
+  font-family: "Neuzeit Grotesk", sans-serif;
   font-weight: bold;
   font-size: var(--font-xxl);
   color: var(--white);
@@ -46,6 +47,7 @@
   border: 2px solid var(--green);
 }
 .c-announcement-card__title {
+  font-family: "Neuzeit Grotesk", sans-serif;
   width: 100%;
   text-align: center;
   color: var(--green);
@@ -73,8 +75,9 @@
   justify-content: center;
 }
 .c-announcement-card__button .c-button {
-  margin-top: -23px;
-  padding: 12px 15px;
+  margin-top: -28px;
+  padding: 15px 25px;
+  font-size: var(--button-medium-size);
 }
 
 @media (max-width: 768px) {

@@ -1,5 +1,5 @@
 .c-mission {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
     font-weight: bold;
     font-size: var(--font-xxl);
     text-align: center;
+    font-family: 'Neuzeit Grotesk', sans-serif;
   }
 
   &__content {
@@ -23,19 +24,21 @@
   &__paragraph {
     width: 250px;
     display: flex;
+    font-family: 'Neuzeit Grotesk', sans-serif;
   }
 
   &__icon {
     width: 9px;
     height: 9px;
-    margin-top: 7px;
+    margin-top: 5px;
     margin-right: 5px;
     background: var(--green);
     flex-flow: wrap row;
   }
 
   &__text {
-    width: calc(100% - 14px)
+    width: calc(100% - 14px);
+    font-size: var(--medium-text-size);
   }
 }
 

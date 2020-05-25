@@ -17,7 +17,7 @@
   margin-top: -10px;
 }
 .c-banner__content .c-button {
-  width: 150px;
+  width: 180px;
   padding: 13px 35px;
 }
 .c-banner__title {
@@ -82,7 +82,9 @@
 .c-banner-slick__text {
   width: 530px;
   display: none;
+  font-weight: 300;
   font-size: var(--big-size);
+  font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-banner-slick .slick-list {
   overflow: hidden;

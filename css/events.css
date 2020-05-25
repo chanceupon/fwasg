@@ -12,12 +12,14 @@
   color: var(--black);
   font-size: var(--font-xxl);
   font-weight: bold;
+  font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-event__link {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: var(--green);
+  font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-event__link img {
   width: 12px;
@@ -90,12 +92,13 @@
 .c-event-card__button {
   background-color: var(--dark-blue);
   color: var(--white);
-  padding: 3px 10px 5px 10px;
+  padding: 6px 12px 5px 12px;
   border-radius: 50px;
   font-size: var(--small-size);
   border: 1px solid var(--dark-blue);
   font-weight: bold;
   margin-left: 7px;
+  font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-event-card__button:first-child {
   margin-left: 0;

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Neuzeit Grotesk";
+  src: url("../fonts/Neuzeit Grotesk Regular.otf") format("opentype");
+}
 body {
   color: var(--black);
   font-size: var(--base--size);
@@ -36,12 +40,13 @@ body.no-scroll {
   font-size: var(--base-font);
   background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
   box-shadow: 2px 2px 4px #14695E4D;
+  font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-button--bold {
   font-weight: bold;
 }
 .c-button--big {
-  font-size: var(--button-medium-size);
+  font-size: var(--button-big-size);
   padding: 9px 25px;
 }
 
