@@ -183,6 +183,9 @@
   .c-list__item {
     margin-right: 45px;
   }
+  .c-list__item--margin-top {
+    margin-top: 30px;
+  }
   .c-list__item:nth-child(3n) {
     margin-right: 0;
   }
