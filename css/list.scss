@@ -23,6 +23,21 @@
   }
 }
 
+.c-list-dots {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  &__item {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    background: var(--green);
+  }
+}
+
 .c-list {
   width: 100%;
   display: flex;
@@ -104,6 +119,10 @@
     font-size: var(--small-size);
     font-weight: bold;
     color: #666666;
+
+    &--black {
+      color: var(--black);
+    }
   }
 
   &__arrow {
