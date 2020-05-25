@@ -1,4 +1,19 @@
 /css/global.scss
 /css/header.scss
+/css/modal.scss
+/css/typography.scss
+/css/mission.scss
+/css/gallery.scss
+/css/footer.scss
+/css/events.scss
+/css/champion_modal.scss
+/css/announcements.scss
+/css/banner.scss
+/css/list.scss
 
 /homepage.haml
+/annual_symposium.haml
+/committee_members.haml
+/corporate_members.haml
+/female_champion.haml
+/male_champion.haml
