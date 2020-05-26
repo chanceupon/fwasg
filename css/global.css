@@ -61,7 +61,7 @@ body.no-scroll {
     padding: 0 30px;
   }
   .c-container--small {
-    width: 880px;
+    width: calc(100% - 60px);
   }
 }
 @media (max-width: 767px) {
