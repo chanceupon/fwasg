@@ -58,6 +58,14 @@
   font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+  .c-typography__list-paragraph-wrapper {
+    justify-content: space-between;
+  }
+  .c-typography__list-paragraph {
+    margin-right: 5px;
+  }
+}
 @media (max-width: 768px) {
   .c-typography__title {
     margin-top: 20px;
@@ -68,7 +76,8 @@
     height: auto;
   }
   .c-typography__list-paragraph {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
   }
 }
 @media (max-width: 375px) {
