@@ -55,6 +55,7 @@
   font-size: var(--medium-size);
 }
 .c-announcement-card__date {
+  margin-top: 4px;
   width: 100%;
   text-align: center;
   color: var(--gray);
@@ -87,7 +88,7 @@
 }
 @media (max-width: 767px) {
   .c-announcement {
-    height: 840px;
+    height: 765px;
   }
 
   .c-announcement-card {
@@ -103,10 +104,6 @@
   }
 }
 @media (max-width: 375px) {
-  .c-announcement {
-    height: 840px;
-  }
-
   .c-announcement-card {
     padding: 15px 20px 0 20px;
     width: calc(100% - 70px);
@@ -121,7 +118,7 @@
 }
 @media (max-width: 320px) {
   .c-announcement {
-    height: 960px;
+    height: 820px;
   }
 
   .c-announcement-card {

@@ -20,21 +20,21 @@
   justify-content: space-between;
 }
 .c-mission__paragraph {
-  width: 250px;
+  width: 290px;
   display: flex;
   font-family: "Neuzeit Grotesk", sans-serif;
 }
 .c-mission__icon {
-  width: 9px;
-  height: 9px;
-  margin-top: 5px;
+  width: 11px;
+  height: 11px;
+  margin-top: 4px;
   margin-right: 5px;
   background: var(--green);
   flex-flow: wrap row;
 }
 .c-mission__text {
   width: calc(100% - 14px);
-  font-size: var(--medium-text-size);
+  font-size: var(--button-medium-size);
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -46,11 +46,14 @@
   .c-mission {
     margin-top: 0;
   }
+  .c-mission__icon {
+    margin-right: 7px;
+  }
   .c-mission__content {
     margin-top: 30px;
   }
   .c-mission__paragraph {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
