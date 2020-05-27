@@ -11,6 +11,15 @@
   font-family: "Neuzeit Grotesk";
   src: url("../fonts/Neuzeit_Grotesk/Neuzeit Grotesk Regular.otf") format("opentype");
 }
+input,
+textarea,
+button,
+select,
+a,
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body {
   color: var(--black);
   font-size: var(--base-size);
@@ -81,5 +90,10 @@ body.no-scroll {
 @media (max-width: 767px) {
   .c-container {
     width: calc(100% - 50px);
+  }
+}
+@media (max-width: 320px) {
+  .c-container {
+    width: calc(100% - 30px);
   }
 }
