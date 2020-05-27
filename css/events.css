@@ -142,10 +142,14 @@
     margin-bottom: 40px;
     justify-content: center;
   }
+  .c-event__title {
+    letter-spacing: -0.5px;
+  }
 
   .c-event-card {
     margin-top: 30px;
     height: 200px;
+    margin-left: -10px;
   }
   .c-event-card__item {
     padding: 15px;

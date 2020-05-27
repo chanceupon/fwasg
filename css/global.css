@@ -48,14 +48,18 @@ body.no-scroll {
   cursor: pointer;
   padding: 6px 18px 8px 18px;
   font-size: var(--base-font);
-  background: transparent linear-gradient(251deg, #7BBB43 0%, #00A191 100%) 0% 0% no-repeat padding-box;
+  background-image: linear-gradient(251deg, #7BBB43 0%, #00A191 100%);
   box-shadow: 2px 2px 4px #14695E4D;
   font-family: "Neuzeit Grotesk", sans-serif;
+  moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  background-position: 100% 0;
+  background-image: linear-gradient(to right, #00a191, #15a985, #38b173, #59b75d, #7bbb43);
 }
 .c-button:hover {
-  background-image: linear-gradient(to right, #7BBB43 0%, #00A191 100%);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .c-button--bold {
   font-weight: bold;
@@ -76,7 +80,6 @@ body.no-scroll {
 }
 @media (max-width: 767px) {
   .c-container {
-    width: calc(100% - 30px);
-    padding: 0 15px;
+    width: calc(100% - 50px);
   }
 }

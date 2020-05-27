@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 768px) {
+  .c-champion-detail {
+    overflow: auto;
+  }
   .c-champion-detail__item {
     width: 100%;
     align-items: center;
@@ -90,5 +93,6 @@
   .c-champion-detail__description {
     width: 100%;
     padding-top: 0;
+    margin-bottom: 20px;
   }
 }

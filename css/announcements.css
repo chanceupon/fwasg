@@ -93,10 +93,10 @@
 
   .c-announcement-card {
     padding: 15px 20px 0 20px;
-    width: calc(100% - 120px);
+    width: calc(100% - 90px);
   }
   .c-announcement-card__button {
-    width: calc(100% - 76px);
+    width: calc(100% - 46px);
   }
   .c-announcement-card__button .c-button {
     display: flex;
