@@ -241,3 +241,8 @@
     height: 6px;
   }
 }
+@media (max-width: 414px) {
+  .c-banner-slick__slide img {
+    height: 250px;
+  }
+}

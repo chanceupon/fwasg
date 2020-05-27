@@ -99,6 +99,11 @@
     width: calc(100% - 76px);
   }
   .c-announcement-card__button .c-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0;
     margin-top: 0;
     width: 100%;
   }
