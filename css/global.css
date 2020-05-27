@@ -9,11 +9,6 @@
 }
 @font-face {
   font-family: "Neuzeit Grotesk";
-  font-weight: bold;
-  src: url("../fonts/Neuzeit_Grotesk/Neuzeit Grotesk.otf") format("opentype");
-}
-@font-face {
-  font-family: "Neuzeit Grotesk";
   src: url("../fonts/Neuzeit_Grotesk/Neuzeit Grotesk Regular.otf") format("opentype");
 }
 body {
