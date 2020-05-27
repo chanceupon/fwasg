@@ -220,8 +220,8 @@
     padding-left: 11px;
     margin-left: -1px;
   }
-  .c-banner-slick__slide img {
-    height: auto;
+  .c-banner-slick__text {
+    width: 100%;
   }
   .c-banner-slick__content {
     width: calc(100% - 30px);
