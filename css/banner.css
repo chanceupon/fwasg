@@ -246,3 +246,11 @@
     height: 250px;
   }
 }
+@media (max-width: 320px) {
+  .c-banner-slick {
+    margin-left: 5px;
+  }
+  .c-banner-slick__content {
+    width: calc(100% - 30px);
+  }
+}
