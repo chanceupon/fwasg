@@ -48,7 +48,7 @@
   color: var(--black);
   overflow: hidden;
   cursor: pointer;
-  font-size: var(--small-size);
+  font-size: var(--base-size);
   padding: 3px 0;
 }
 

@@ -224,9 +224,9 @@
     width: 100%;
   }
   .c-banner-slick__content {
-    width: calc(100% - 30px);
+    width: calc(100% - 50px);
+    margin: auto;
     margin-top: 20px;
-    padding: 0 15px;
   }
   .c-banner-slick .slick-dots {
     margin-top: 5px;

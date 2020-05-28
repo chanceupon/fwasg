@@ -9,9 +9,16 @@ $(document).on('click', function(event){
 
 $(function() {
   $('.c-header-menu .dropdown').on('click', function() {
-    $('.dropdown').removeClass('open');
-    $('.dropdown').find('ul').slideUp('fast');
-    $(this).addClass('open')
+    if ($(this).hasClass('open')) {
+      $(this).removeClass('open')
+    } else {
+      if ($('.c-header-menu .dropdown.open').length > 0) {
+        $('.c-header-menu .dropdown').removeClass('open');
+        $('.c-header-menu .dropdown ul').slideUp('fast');
+      }
+      $(this).addClass('open')
+    }
+
     $(this).find('ul').toggleClass('hidden');
     $(this).find('ul').slideToggle('fast');
   });
