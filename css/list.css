@@ -45,6 +45,9 @@
 .c-list--margin-top {
   margin-top: 20px;
 }
+.c-list__item-hidden {
+  display: none;
+}
 .c-list__item {
   cursor: pointer;
   display: flex;
@@ -163,10 +166,27 @@
     margin-right: 0;
   }
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1180px) {
+  .c-list__item {
+    margin-right: 73px;
+  }
+  .c-list__item:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .c-list__item {
+    margin-right: 18px;
+  }
+  .c-list__item:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
   .c-list__item {
     margin-right: 68px;
   }
+
   .c-list__item:nth-child(4n) {
     margin-right: 0;
   }

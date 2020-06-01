@@ -78,6 +78,22 @@ body.no-scroll {
   padding: 9px 25px;
 }
 
+@media (min-width: 1181px) and (max-width: 1280px) {
+  .c-container {
+    width: 1120px;
+  }
+  .c-container--small {
+    width: 1024px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1180px) {
+  .c-container {
+    width: 992px;
+  }
+  .c-container--small {
+    width: 992px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .c-container {
     width: calc(100% - 60px);

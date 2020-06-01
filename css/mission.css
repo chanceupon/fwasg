@@ -37,7 +37,7 @@
   font-size: var(--button-medium-size);
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1280px) {
   .c-mission__paragraph {
     margin-top: 20px;
   }
