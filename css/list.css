@@ -5,8 +5,12 @@
   flex-flow: wrap row;
 }
 .c-list-filter__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
   margin: 5px 6px;
-  padding: 6px 18px;
+  padding: 6px 12px;
   border-radius: 4px;
   color: #959595;
   cursor: pointer;
@@ -208,9 +212,6 @@
   }
 }
 @media (max-width: 767px) {
-  .c-list-filter {
-    justify-content: space-between;
-  }
   .c-list-filter__item {
     margin: 5px 0;
   }
