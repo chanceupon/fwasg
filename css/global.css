@@ -103,6 +103,15 @@ body.no-scroll {
     width: calc(100% - 60px);
   }
 }
+@media (min-width: 769px) and (max-width: 1023px) {
+  .c-container {
+    width: 740px;
+    padding: 0 30px;
+  }
+  .c-container--small {
+    width: 740px;
+  }
+}
 @media (max-width: 767px) {
   .c-container {
     width: calc(100% - 50px);

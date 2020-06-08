@@ -56,6 +56,17 @@
     height: auto;
   }
 }
+@media (min-width: 769px) and (max-width: 940px) {
+  .c-header__menu {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .c-header-menu {
+    margin: 20px 0;
+  }
+}
 @media (max-width: 768px) {
   .c-header {
     height: 50px;

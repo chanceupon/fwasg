@@ -191,9 +191,17 @@
     margin-right: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 768px) {
   .c-list__item {
     margin-right: 65px;
+  }
+  .c-list__item:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  .c-list__item {
+    margin-right: 85px;
   }
   .c-list__item:nth-child(3n) {
     margin-right: 0;
