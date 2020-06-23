@@ -38,8 +38,17 @@
 }
 
 @media (min-width: 769px) and (max-width: 1280px) {
-  .c-mission__paragraph {
+  .c-mission__content {
     margin-top: 20px;
+    justify-content: center;
+  }
+  .c-mission__paragraph {
+    width: calc(50% - 40px);
+    margin-top: 25px;
+    margin-right: 50px;
+  }
+  .c-mission__paragraph:nth-child(2n) {
+    margin-right: 0;
   }
 }
 @media (max-width: 768px) {
