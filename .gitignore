@@ -10,7 +10,9 @@
 /css/announcements.scss
 /css/banner.scss
 /css/list.scss
+/css/we_impact.scss
 
+/we_impact.haml
 /homepage.haml
 /annual_symposium.haml
 /committee_members.haml

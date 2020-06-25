@@ -11,6 +11,9 @@
   margin-bottom: 15px;
   font-family: "Neuzeit Grotesk", sans-serif;
 }
+.c-typography__title--small {
+  font-size: var(--font-xxl);
+}
 .c-typography__image {
   margin: 20px 0;
   width: 100%;
@@ -25,6 +28,9 @@
 }
 .c-typography__paragraph--margin-top {
   margin-top: 20px;
+}
+.c-typography__paragraph--bold {
+  font-weight: bold;
 }
 .c-typography__list-paragraph-wrapper {
   width: 100%;

@@ -5,6 +5,11 @@
 }
 @font-face {
   font-family: "Source Sans Pro";
+  font-weight: 600;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
   src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
 }
 @font-face {

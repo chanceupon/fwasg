@@ -14,6 +14,17 @@
   height: 275px;
   object-fit: cover;
 }
+.c-gallery__container {
+  display: flex;
+  flex-direction: column;
+}
+.c-gallery__title {
+  font-weight: bold;
+  font-size: var(--font-xxl);
+  text-align: center;
+  font-family: "Neuzeit Grotesk", sans-serif;
+  margin-bottom: 35px;
+}
 .c-gallery__button {
   display: flex;
   justify-content: center;
