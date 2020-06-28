@@ -1,4 +1,4 @@
-$(document).ready(function(){
+function handleModalClick() {
   var modalElem = null;
   $("[data-modal='true']").on('click', function() {
     $('.modal').css('display', 'none');
@@ -36,4 +36,8 @@ $(document).ready(function(){
       $('body').removeClass('no-scroll');
     }
   });
+}
+
+$(document).ready(function(){
+  handleModalClick();
 });

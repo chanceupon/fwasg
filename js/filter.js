@@ -12,5 +12,7 @@ $(document).ready(function(){
         $('.c-list').append($(this).parent())
       }
     })
+
+    handleModalClick();
   })
 });
