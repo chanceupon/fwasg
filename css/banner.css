@@ -63,12 +63,12 @@
 .c-banner-slick__wrapper {
   position: relative;
   margin-top: -35px !important;
+  padding-left: 20px;
 }
 .c-banner-slick__slide {
   display: flex !important;
   width: 100%;
   justify-content: flex-end;
-  margin-left: 20px;
 }
 .c-banner-slick__slide img {
   object-fit: cover;
@@ -98,7 +98,6 @@
   padding: 0;
   list-style: none;
   display: flex;
-  padding-left: 20px;
   margin-top: 10px;
 }
 .c-banner-slick .slick-dots li {
@@ -139,10 +138,6 @@
   .c-banner-slick {
     width: calc(100% - ((100% - 1200px) / 2) - 0.48 * 1200px);
   }
-  .c-banner-slick__slide {
-    padding-left: 19px;
-    margin-left: -1px;
-  }
   .c-banner-slick__slide img {
     height: 455px;
   }
@@ -166,10 +161,6 @@
 
   .c-banner-slick {
     width: calc(100% - ((100% - 1120px) / 2) - 0.48 * 1120px);
-  }
-  .c-banner-slick__slide {
-    padding-left: 19px;
-    margin-left: -1px;
   }
   .c-banner-slick__slide img {
     height: 455px;
@@ -197,10 +188,6 @@
 
   .c-banner-slick {
     width: calc(100% - ((100% - 992px) / 2) - 0.48 * 992px);
-  }
-  .c-banner-slick__slide {
-    padding-left: 19px;
-    margin-left: -1px;
   }
   .c-banner-slick__slide img {
     height: 455px;
@@ -230,10 +217,6 @@
 
   .c-banner-slick {
     width: 52%;
-  }
-  .c-banner-slick__slide {
-    padding-left: 19px;
-    margin-left: -1px;
   }
   .c-banner-slick__slide img {
     height: 350px;
@@ -284,11 +267,8 @@
     margin-left: 13px;
   }
   .c-banner-slick__wrapper {
+    padding-left: 10px;
     margin-top: -20px !important;
-  }
-  .c-banner-slick__slide {
-    padding-left: 11px;
-    margin-left: -1px;
   }
   .c-banner-slick__text {
     width: 100%;
@@ -301,7 +281,6 @@
   .c-banner-slick .slick-dots {
     margin-top: 5px;
     margin-bottom: 3px;
-    padding-left: 10px;
   }
   .c-banner-slick .slick-dots li {
     margin: 3px;
