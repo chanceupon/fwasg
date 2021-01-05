@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="check" width="70" height="70" viewBox="0 0 70 70">
+    <defs>
+        <style>
+            .cls-1{fill:#f3f3f3}
+        </style>
+    </defs>
+    <g id="Group_16">
+        <g id="Group_15">
+            <path id="Path_131" d="M35 0a35 35 0 1 0 35 35A35 35 0 0 0 35 0zm0 67.742A32.742 32.742 0 1 1 67.742 35 32.742 32.742 0 0 1 35 67.742z" class="cls-1"/>
+            <path id="Path_132" d="M148.544 156.415l-22.911 22.911-11.621-11.621a1.129 1.129 0 0 0-1.6 1.6l12.419 12.419a1.129 1.129 0 0 0 1.6 0l23.71-23.71a1.129 1.129 0 0 0-1.6-1.6z" class="cls-1" transform="translate(-96.278 -134.068)"/>
+        </g>
+    </g>
+</svg>

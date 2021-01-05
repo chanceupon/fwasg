@@ -25,6 +25,16 @@
   font-family: "Neuzeit Grotesk", sans-serif;
   margin-bottom: 35px;
 }
+.c-gallery__sub-title {
+  font-weight: bold;
+  font-size: var(--medium-size);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.c-gallery__description {
+  font-size: var(--medium-size);
+  text-align: center;
+}
 .c-gallery__button {
   display: flex;
   justify-content: center;

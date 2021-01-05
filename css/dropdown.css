@@ -12,6 +12,12 @@
   margin-right: 5px;
 }
 
+.dropdown label a {
+  color: inherit;
+  text-decoration: unset;
+  margin-right: 5px;
+}
+
 .dropdown label .arrow {
   border: solid var(--green) 1px;
   border-width: 0 2px 2px 0;

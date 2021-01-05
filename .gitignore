@@ -11,6 +11,7 @@
 /css/banner.scss
 /css/list.scss
 /css/we_impact.scss
+/css/mentoring.scss
 
 /we_impact.haml
 /homepage.haml
@@ -19,4 +20,5 @@
 /corporate_members.haml
 /female_champion.haml
 /male_champion.haml
+/mentoring.haml
 /prepros.config
