@@ -1,4 +1,4 @@
-.c-metoring-group {
+.c-mentoring-group {
   width: 100%;
   display: flex;
   flex-flow: wrap row;
@@ -7,41 +7,41 @@
   padding-bottom: 100px;
   border-bottom: 1px solid #d5d5d5;
 }
-.c-metoring-group__item {
+.c-mentoring-group__item {
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.c-metoring-group__item--small {
+.c-mentoring-group__item--small {
   width: 16.6666%;
 }
-.c-metoring-group__title {
+.c-mentoring-group__title {
   font-size: var(--big-size);
   font-weight: bold;
   font-family: "Neuzeit Grotesk", sans-serif;
   color: var(--green);
 }
-.c-metoring-group__title--small {
+.c-mentoring-group__title--small {
   text-align: center;
   width: 162px;
   margin: 24px;
   font-size: var(--medium-size);
 }
-.c-metoring-group__sub-title {
-  font-size: 22px;
+.c-mentoring-group__sub-title {
+  font-size: var(--medium-size);
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
   height: 56px;
 }
-.c-metoring-group__sub-title--breakline {
+.c-mentoring-group__sub-title--breakline {
   width: 245px;
 }
-.c-metoring-group__sub-title--no-margin {
-  margin: 0;
+.c-mentoring-group__sub-title--no-margin {
+  margin: 0 !important;
 }
-.c-metoring-group__icon {
+.c-mentoring-group__icon {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@
   background: var(--green);
   border-radius: 100%;
 }
-.c-metoring-group__icon img {
+.c-mentoring-group__icon img {
   width: 70px;
   height: 70px;
 }
@@ -192,10 +192,10 @@
   position: relative;
   text-decoration: none;
   color: inherit;
-  margin-right: 70px;
+  margin-right: 50px;
 }
 .c-mentoring-testimonial-card__layer {
-  width: 365px;
+  width: 100%;
   margin-left: 15px;
   background: var(--green) 0% 0% no-repeat padding-box;
   box-shadow: 3px 3px 4px #14695E33;
@@ -207,7 +207,7 @@
 .c-mentoring-testimonial-card__item {
   z-index: 30;
   margin-top: 11px;
-  width: 335px;
+  width: 95%;
   padding: 13px 16px;
   padding-bottom: 30px;
   display: flex;
@@ -243,6 +243,76 @@
 .c-mentoring-testimonial-card__play-icon {
   width: 70px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+}
+
+@media (max-width: 1140px) {
+  .c-mentoring-group__item--small {
+    width: 33.33%;
+  }
+}
+@media (max-width: 1024px) {
+  .c-mentoring-group {
+    margin-bottom: 0;
+  }
+  .c-mentoring-group__sub-title--breakline {
+    width: 200px;
+  }
+
+  .c-mentoring-card-group {
+    margin-top: 15px;
+  }
+
+  .c-mentoring-section {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .c-mentoring-testimonial {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .c-mentoring-group {
+    margin-top: 30px;
+  }
+
+  .c-mentoring-group__item {
+    width: 50%;
+    margin-top: 25px;
+  }
+
+  .c-mentoring-group__sub-title {
+    margin: 15px 0;
+    width: 250px;
+    height: auto;
+  }
+
+  .c-mentoring-group__title--small {
+    margin: 12px;
+    height: 42px;
+  }
+
+  .c-mentoring-card-group__item {
+    width: calc(50% - 55px);
+  }
+
+  .c-mentoring-testimonial-card__main-image {
+    height: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .c-mentoring-testimonial-card {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .c-mentoring-card-group__item {
+    width: 100%;
+  }
+
+  .c-mentoring-group__sub-title {
+    width: 224px;
+    height: 46px;
+  }
 }

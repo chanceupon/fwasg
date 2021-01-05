@@ -17,6 +17,7 @@
 .c-gallery__container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .c-gallery__title {
   font-weight: bold;
@@ -32,6 +33,7 @@
   margin-bottom: 15px;
 }
 .c-gallery__description {
+  width: 727px;
   font-size: var(--medium-size);
   text-align: center;
 }
@@ -70,6 +72,9 @@
     height: 220px;
     object-fit: cover;
   }
+  .c-gallery__description {
+    width: 100%;
+  }
 }
 @media (max-width: 767px) {
   .c-gallery__container {
@@ -80,6 +85,9 @@
     width: 50%;
     height: 170px;
     object-fit: cover;
+  }
+  .c-gallery__description {
+    width: 100%;
   }
   .c-gallery__button .c-button {
     width: 100%;
