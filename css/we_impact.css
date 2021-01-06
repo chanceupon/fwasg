@@ -279,4 +279,7 @@
     width: 14px;
     height: 14px;
   }
+  .c-enthusiasts-slick__title {
+    text-align: center;
+  }
 }

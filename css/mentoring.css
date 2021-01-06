@@ -42,7 +42,6 @@
   margin: 0 !important;
 }
 .c-mentoring-group__icon {
-  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,5 +313,19 @@
   .c-mentoring-group__sub-title {
     width: 224px;
     height: 46px;
+  }
+}
+@media (max-width: 450px) {
+  .c-mentoring-group__sub-title {
+    width: 100%;
+    height: 46px;
+  }
+}
+@media (max-width: 320px) {
+  .c-mentoring-group__item {
+    width: 100%;
+  }
+  .c-mentoring-group__sub-title {
+    height: auto;
   }
 }
