@@ -1,3 +1,9 @@
+.c-gallery-mentoring {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
 .c-mentoring-group {
   width: 100%;
   display: flex;
@@ -65,6 +71,7 @@
   font-size: var(--big-size);
   font-weight: bold;
   font-family: "Neuzeit Grotesk", sans-serif;
+  color: var(--green);
 }
 .c-mentoring-card-group__wrapper {
   display: flex;
@@ -77,7 +84,8 @@
   flex-direction: column;
   width: calc(33% - 55px);
   padding: 22px 20px;
-  border: solid 1px #c2c1c1;
+  border: solid 1px #00a191;
+  border-radius: 20px;
   display: flex;
   font-size: var(--medium-size);
   justify-content: center;
@@ -119,6 +127,7 @@
   margin-top: 20px;
   font-size: var(--medium-size);
   font-weight: bold;
+  color: var(--green);
 }
 
 .c-mentoring-overview {
