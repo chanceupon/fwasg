@@ -3,6 +3,9 @@
   height: auto !important;
   object-fit: contain;
 }
+.c-gallery-mentoring__description {
+  font-size: var(--button-medium-size);
+}
 
 .c-mentoring-group {
   width: 100%;
@@ -35,7 +38,7 @@
   font-size: var(--medium-size);
 }
 .c-mentoring-group__sub-title {
-  font-size: var(--medium-size);
+  font-size: var(--button-medium-size);
   text-align: center;
   margin-top: 25px;
   margin-bottom: 20px;
@@ -87,7 +90,7 @@
   border: solid 1px #00a191;
   border-radius: 20px;
   display: flex;
-  font-size: var(--medium-size);
+  font-size: var(--button-medium-size);
   justify-content: center;
 }
 .c-mentoring-card-group__item--half {
@@ -125,7 +128,7 @@
 }
 .c-mentoring-section__sub-title {
   margin-top: 20px;
-  font-size: var(--medium-size);
+  font-size: var(--button-medium-size);
   font-weight: bold;
   color: var(--green);
 }
