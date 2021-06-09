@@ -37,6 +37,9 @@
   margin: 24px;
   font-size: var(--medium-size);
 }
+.c-mentoring-group__title--big {
+  font-size: var(--font-xxxl);
+}
 .c-mentoring-group__sub-title {
   font-size: var(--button-medium-size);
   text-align: center;
@@ -95,6 +98,10 @@
 }
 .c-mentoring-card-group__item--half {
   width: calc(50% - 55px);
+}
+.c-mentoring-card-group__item--center-fixed-height {
+  text-align: center;
+  height: 50px;
 }
 .c-mentoring-card-group__item a {
   color: var(--green);
@@ -209,7 +216,7 @@
   width: 100%;
   margin-left: 15px;
   background: var(--green) 0% 0% no-repeat padding-box;
-  box-shadow: 3px 3px 4px #14695E33;
+  box-shadow: 3px 3px 4px #14695e33;
   border: 2px solid var(--dark-green);
   position: absolute;
   height: calc(100% - 15px);
@@ -223,7 +230,7 @@
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   border: 2px solid #000000;
 }
 .c-mentoring-testimonial-card__title {

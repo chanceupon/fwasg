@@ -1,13 +1,14 @@
 :root {
-  --black: #463E37;
-  --green: #00A191;
+  --black: #463e37;
+  --green: #00a191;
   --gray: #959595;
-  --blur-green: #7BBB43;
-  --dark-green: #14695E;
-  --dark-blue: #08415C;
-  --blur-gray: #F3F3F3;
+  --blur-green: #7bbb43;
+  --dark-green: #14695e;
+  --dark-blue: #08415c;
+  --blur-gray: #f3f3f3;
   --white: #fff;
   --font-xxl: 36px;
+  --font-xxxl: 48px;
   --big-size: 30px;
   --medium-size: 22px;
   --base-size: 16px;
@@ -16,7 +17,7 @@
   --button-big-size: 24px;
 }
 
-@media (min-width: 769px)  and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px) {
   :root {
     --base-size: 14px;
     --small-size: 13px;
@@ -25,6 +26,7 @@
     --medium-size: 18px;
     --big-size: 20px;
     --font-xxl: 26px;
+    --font-xxxl: 32px;
   }
 }
 
@@ -38,5 +40,6 @@
     --medium-size: 18px;
     --big-size: 20px;
     --font-xxl: 26px;
+    --font-xxxl: 32px;
   }
 }

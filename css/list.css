@@ -19,7 +19,7 @@
   margin-left: 0;
 }
 .c-list-filter__item:hover, .c-list-filter__item--active {
-  background: #00A19112 0% 0% no-repeat padding-box;
+  background: #00a19112 0% 0% no-repeat padding-box;
   color: var(--green);
   font-weight: bold;
 }
@@ -48,6 +48,9 @@
 }
 .c-list--margin-top {
   margin-top: 20px;
+}
+.c-list--center {
+  justify-content: center;
 }
 .c-list__item-hidden {
   display: none;
@@ -111,7 +114,7 @@
   margin-left: 40px;
   width: 150px;
   height: 160px;
-  background-color: #003C36;
+  background-color: #003c36;
   right: 0;
   bottom: -13px;
   border-radius: 2px;
@@ -251,7 +254,7 @@
     margin-left: 40px;
     width: 150px;
     height: 160px;
-    background-color: #003C36;
+    background-color: #003c36;
     right: 0;
     bottom: -13px;
     border-radius: 2px;
