@@ -85,6 +85,10 @@
   width: 100%;
   justify-content: space-between;
 }
+.c-mentoring-card-group__wrapper ul li {
+  font-size: var(--button-medium-size);
+  padding-bottom: 10px;
+}
 .c-mentoring-card-group__item {
   margin-top: 25px;
   flex-direction: column;

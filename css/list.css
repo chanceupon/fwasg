@@ -57,7 +57,7 @@
 }
 .c-list__item {
   cursor: pointer;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   width: 190px;
   margin-top: 30px;
@@ -72,6 +72,12 @@
 }
 .c-list__item--no-hover .c-list__image-wrapper:hover .c-list__arrow {
   display: none;
+}
+.c-list__item--center {
+  align-items: center;
+}
+.c-list__item--no-margin {
+  margin-right: 0 !important;
 }
 .c-list__image-wrapper {
   display: flex;
@@ -166,6 +172,50 @@
   object-fit: contain !important;
   width: 15px !important;
   height: 15px;
+}
+.c-list .slick-list {
+  display: flex;
+  width: 100%;
+}
+.c-list .slick-track {
+  display: flex;
+}
+.c-list .slick-dots {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+  position: absolute;
+  bottom: -40px;
+}
+.c-list .slick-dots li {
+  border: solid 2px #00a191;
+  border-radius: 100%;
+  background-color: transparent;
+  margin: 5px;
+}
+.c-list .slick-dots li.slick-active {
+  background-color: var(--green);
+}
+.c-list .slick-dots li:first-child {
+  margin-left: 0;
+}
+.c-list .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 9px;
+  height: 9px;
+  padding: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background-color: transparent;
 }
 
 @media (min-width: 1280px) {
